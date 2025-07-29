@@ -1,3 +1,4 @@
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 # Genetic Algorithm for Correlation Optimization
 
 This repository contains the implementation of a Genetic Algorithm (GA) to design coded ultrasound sequences with optimal auto- and cross-correlation properties, suitable for simultaneous plane-wave imaging in nondestructive testing.
@@ -16,7 +17,7 @@ In nondestructive ultrasound inspection, simultaneous emission of coded waveform
 
 ```
 ├── gen_alg.py          # Main GA implementation and script to run experiments
-├── symbol_set_new.npy  # Ternary PWM symbol dictionary
+├── symbol_set.npy      # Ternary PWM symbol dictionary
 ├── IR_150_2wy.npy      # Estimated transducer impulse response
 ├── README.md           # Project documentation (this file)
 ├── results/            # Generated signals and correlation plots
@@ -27,7 +28,7 @@ In nondestructive ultrasound inspection, simultaneous emission of coded waveform
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/username/genetic_correlation_optimization.git
+   git clone https://github.com/vhrm19/genetic_correlation_optimization.git
    cd genetic_correlation_optimization
    ```
 
