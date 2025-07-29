@@ -71,9 +71,11 @@ Adjust these parameters directly in `gen_alg.py` to explore different trade-offs
 
 ## 📈 Results
 
-&#x20;*Fig. 1: RPSLR evolution across generations.*
+![Convergence Plot](results/convergence.png)
+*Fig. 1: RPSLR evolution across generations.*
 
-&#x20;*Fig. 2: Final auto- (red) and cross-correlation (blue dashed) profiles for optimized sequences.*
+![Correlation Profiles](results/correlation_profiles.png)
+*Fig. 2: Final auto- (red) and cross-correlation (blue dashed) profiles.*
 
 ## 🔍 Citation
 
