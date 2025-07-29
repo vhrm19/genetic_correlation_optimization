@@ -19,6 +19,7 @@ In nondestructive ultrasound inspection, simultaneous emission of coded waveform
 ├── symbol_set_new.npy  # Ternary PWM symbol dictionary
 ├── IR_150_2wy.npy      # Estimated transducer impulse response
 ├── README.md           # Project documentation (this file)
+├── results/            # Generated signals and correlation plots
 ```
 
 ## 🔧 Installation
