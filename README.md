@@ -4,7 +4,7 @@ This repository contains the implementation of a Genetic Algorithm (GA) to desig
 
 ## 📄 Project Overview
 
-In nondestructive ultrasound inspection, simultaneous emission of coded waveforms can drastically reduce acquisition time. However, designing sequences with low auto-correlation sidelobes and minimal cross-correlation is challenging, especially under hardware constraints of tri-state pulse-width modulated (PWM) excitation. This project implements a GA-based framework that directly optimizes the **Relative Peak Sidelobe Level Ratio (RPSLR)** of tri-state sequences, outperforming conventional chirp-based methods as demonstrated in our ASME QNDE 2024 paper fileciteturn0file0.
+In nondestructive ultrasound inspection, simultaneous emission of coded waveforms can drastically reduce acquisition time. However, designing sequences with low auto-correlation sidelobes and minimal cross-correlation is challenging, especially under hardware constraints of tri-state pulse-width modulated (PWM) excitation. This project implements a GA-based framework that directly optimizes the **Relative Peak Sidelobe Level Ratio (RPSLR)** of tri-state sequences, outperforming conventional chirp-based methods as demonstrated in our ASME QNDE 2024 paper.
 
 ### Key Contributions
 
@@ -15,7 +15,7 @@ In nondestructive ultrasound inspection, simultaneous emission of coded waveform
 ## 🛠 Repository Structure
 
 ```
-├── gen_alg.py          # Main GA implementation and script to run experiments fileciteturn0file1
+├── gen_alg.py          # Main GA implementation and script to run experiments
 ├── symbol_set_new.npy  # Ternary PWM symbol dictionary
 ├── IR_150_2wy.npy      # Estimated transducer impulse response
 ├── README.md           # Project documentation (this file)
@@ -79,7 +79,7 @@ Adjust these parameters directly in `gen_alg.py` to explore different trade-offs
 
 If you use this code or data, please cite our paper:
 
-> Machado, V. H. R. et al., "Simultaneous Ultrasound Using Genetic Algorithm," *Proceedings of the ASME 2024 51st Annual Review of Progress in Quantitative Nondestructive Evaluation (QNDE2024)*, Denver, CO, Jul. 2024. fileciteturn0file0
+> Machado, V. H. R. et al., "Simultaneous Ultrasound Using Genetic Algorithm," *Proceedings of the ASME 2024 51st Annual Review of Progress in Quantitative Nondestructive Evaluation (QNDE2024)*, Denver, CO, Jul. 2024.
 
 ## 📜 License
 
