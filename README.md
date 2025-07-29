@@ -1,3 +1,4 @@
+[![DOI](https://img.shields.io/badge/DOI-10.1111%2Fj.1365--246X.2009.04278.x-blue)](https://doi.org/10.1111/j.1365-246X.2009.04278.x)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 # Genetic Algorithm for Correlation Optimization
 
